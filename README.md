@@ -20,3 +20,5 @@ Beraz :
 22 - Borobil urdina
 
 Fitxategia gordetzerakoan ordenean bakoitzeko zenbat sortu ditugun jarriko dugu fitxategiaren izenean gero datubasera kargatzerako orduan jakiteko irudi horretan zenbat figura/kolore ditugun.
+
+![Adibide irudia](https://github.com/egunean-behin/egunean_behin_figurak/blob/master/examples/fig_2_2_2_4_0_7_2_3_2.png?raw=true)
