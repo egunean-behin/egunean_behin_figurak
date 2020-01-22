@@ -10,7 +10,7 @@ marraztu_galdera funtzioak ausaz hiru funtzio hauen artean aukeratu eta n_x bide
 Eta marraztu ahala, zein koloretako zein figura marraztu duen apuntatuko du, gero zenbat dauden jakiteko.
 Horretarako bi zifratako identifikadore bat erabiliko dugu non lehengo zifra figura izango den eta bigarrena kolorea:
 
-0 -Hirukia, 1 - Laukia, 2 - Borobila
+0 - Hirukia, 1 - Laukia, 2 - Borobila
 0 - Gorria, 1 - Berdea, 2 - Urdina
 
 Beraz :
