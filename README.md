@@ -1,4 +1,4 @@
-# egunean_behin_figurak
+# Egunean behin figurak
 Egunean behinerako figura geometrikoak sortzeko kodea.
 Galdera hauek sortzeko pythoneko PIL (Python Image Library) libreria sortu dugu.
 Hasiera  aldagai lokal bezala egingo dugun irudiaren (oihalaren) tamaina definituko dugu (600,400) eta figurek izango dute hiru kolore posibleak, gorria, berdea eta urdina.
