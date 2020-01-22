@@ -46,9 +46,9 @@ def marraztu_galdera(i):
             iz[str(figura)+str(color)]+=1
 
     im.thumbnail(thumb)
-    im.save('/home/jatsu/egunea/fig_%d_%d_%d_%d_%d_%d_%d_%d_%d.png'%(iz['00'], iz['01'], iz['02'], iz['10'], iz['11'], iz['12'], iz['20'], iz['21'], iz['22']))
+    im.save('./figurak/fig_%d_%d_%d_%d_%d_%d_%d_%d_%d.png'%(iz['00'], iz['01'], iz['02'], iz['10'], iz['11'], iz['12'], iz['20'], iz['21'], iz['22']))
 
-
-zenbat_galdera=range(0,20)
-for galdera in zenbat_galdera:
-    marraztu_galdera(galdera)
+if __name__ == '__main__':
+    zenbat_galdera=range(0,20)
+    for galdera in zenbat_galdera:
+        marraztu_galdera(galdera)
