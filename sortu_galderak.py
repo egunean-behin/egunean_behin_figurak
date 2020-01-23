@@ -19,7 +19,6 @@ def galderak_idatzi():
             spamwriter.writerow(galdera)
 
 
-
 def erantzun_okerrak(zuzena):
     erantzunak=[int(zuzena)]
     erantzunak.append(choice([i for i in range(1,10) if i not in erantzunak]))
@@ -43,5 +42,5 @@ def sortu_galderak():
         galderak_list.append([galdera, zuzena, okerrak[0],okerrak[1],izena])
     return galderak_list
 
-#irakurri_izenak()
-galderak_idatzi()
+if __name__ == '__main__':
+    galderak_idatzi()
