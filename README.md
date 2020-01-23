@@ -47,3 +47,21 @@ Izeneko zenbaki bakoitzak, bere posizio zehatzean, esangura zehatz bat dauka. Ka
 7. Posizioan, 2: 2 borobil gorri
 8. Posizioan, 3: 3 borobil berde
 9. Posizioan, 2: 2 borobil urdin
+
+**Irudi fitxategietatik galderetara**
+
+
+Sortu_figurak.py programaren bidez, beraz, sortzen ditugu, adibidez eta kopuru bat ematearren, 20 irudi. Irudi fitxategi bakoitzak du, bere izenean, figura kopuruen gakoa.
+
+
+Orduan, zerrenda hau daukagu, 
+
+
+fig_2_5_2_4_0_6_2_3_2.png
+
+fig_2_2_2_4_0_7_2_3_2.png
+
+...
+
+
+Eta zerrenda horri, aplikatzen diogularik idatzi dugun beste programa, KONTATUERANTZUNAK.py, honek hau eta hau eginez sortzen ditu 20 galdera…  bla bla, eta azkenean, esan bezala, emaitza da galderak.csv fitxategia.
