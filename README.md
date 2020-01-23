@@ -64,4 +64,7 @@ fig_2_2_2_4_0_7_2_3_2.png
 ...
 
 
-Eta zerrenda horri, aplikatzen diogularik idatzi dugun beste programa, sortu_galderak.py, honek hau eta hau eginez sortzen ditu 20 galdera…  bla bla, eta azkenean, esan bezala, emaitza da galderak.csv fitxategia.
+Eta zerrenda horri, aplikatzen diogularik idatzi dugun beste programa, sortu_galderak.py.
+Programa honek examples karpetako irudiak rekorritzen ditu eta bakoitzarekin galdera bat sortzen du. Aleatorioki aukeratzen du zein kolore eta zein figuragatik galdetuko duen, lehen zaldu dugun bezala, irudiaren fitxategi izenetik ateratzen du kolore hortako zenbat figura dauden.
+Beste funtzio batek, erantzun okerrak sortzen ditu, erantzun zuzena ez direnak.
+Datu guzti hauek zerrenda batean sartu eta zerrenda hori .csv fitxategi batean idazten du, gero Egunean Behineko datu basera kargatu ahal izateko.
