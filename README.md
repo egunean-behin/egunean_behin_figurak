@@ -3,7 +3,7 @@
 **Galderen izaera**
 
 
-Mugikorrean ondo ikusiko den tamaina bateko irudiak sortzea da gakoa (600 x 400 pixeleko ohial bat, adibidez), eta bertan zenbait figura geometriko sartu, kolore desberdinetakoak. Galderek eskatzen dute forma bateko edo besteko figurak kontatzea, erantzun zuzenaz gain, bi oker ere eskainiz,. Ikusi emaitzen adibidea,  XXXXX.csv 
+Mugikorrean ondo ikusiko den tamaina bateko irudiak sortzea da gakoa (600 x 400 pixeleko ohial bat, adibidez), eta bertan zenbait figura geometriko sartu, kolore desberdinetakoak. Galderek eskatzen dute forma bateko edo besteko figurak kontatzea, erantzun zuzenaz gain, bi oker ere eskainiz,. Ikusi emaitzen adibidea,  galderak.csv
 
 **Figurak sortzeko programa**
 
@@ -51,10 +51,10 @@ Izeneko zenbaki bakoitzak, bere posizio zehatzean, esangura zehatz bat dauka. Ka
 **Irudi fitxategietatik galderetara**
 
 
-Sortu_figurak.py programaren bidez, beraz, sortzen ditugu, adibidez eta kopuru bat ematearren, 20 irudi. Irudi fitxategi bakoitzak du, bere izenean, figura kopuruen gakoa.
+sortu_figurak.py programaren bidez, beraz, sortzen ditugu, adibidez eta kopuru bat ematearren, 20 irudi. Irudi fitxategi bakoitzak du, bere izenean, figura kopuruen gakoa.
 
 
-Orduan, zerrenda hau daukagu, 
+Orduan, zerrenda hau daukagu,
 
 
 fig_2_5_2_4_0_6_2_3_2.png
@@ -64,4 +64,4 @@ fig_2_2_2_4_0_7_2_3_2.png
 ...
 
 
-Eta zerrenda horri, aplikatzen diogularik idatzi dugun beste programa, KONTATUERANTZUNAK.py, honek hau eta hau eginez sortzen ditu 20 galdera…  bla bla, eta azkenean, esan bezala, emaitza da galderak.csv fitxategia.
+Eta zerrenda horri, aplikatzen diogularik idatzi dugun beste programa, sortu_galderak.py, honek hau eta hau eginez sortzen ditu 20 galdera…  bla bla, eta azkenean, esan bezala, emaitza da galderak.csv fitxategia.
