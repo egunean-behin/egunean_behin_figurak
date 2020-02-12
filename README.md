@@ -1,14 +1,34 @@
 # Egunean behin figurak
 
+**Nola erabili**
+
+Deskargatu kode hau eta sortu [virtualenv](https://virtualenv.pypa.io/en/latest/) bat
+karpetan bertan, horrela zure sistemako python ingurunea ez duzu kakaztuko.
+
+Ondoren aktibatu virtualenv hori eta instalatu dependentziak:
+
+```bash
+    $ pip install -r requirements.txt
+```
+
+Ondoren programa exekutatu dezakezu:
+
+```bash
+   $ python sortu_figurak.py
+   $ cp figurak/* examples/.
+   $ python sortu_galderak.py
+```
+
+Programaren emaitza, galderak.csv fitxategia eta figurak karpeta izango dira.
+
 **Galderen izaera**
 
-
-Mugikorrean ondo ikusiko den tamaina bateko irudiak sortzea da gakoa (600 x 400 pixeleko ohial bat, adibidez), eta bertan zenbait figura geometriko sartu, kolore desberdinetakoak. Galderek eskatzen dute forma bateko edo besteko figurak kontatzea, erantzun zuzenaz gain, bi oker ere eskainiz,. Ikusi emaitzen adibidea,  galderak.csv
+Mugikorrean ondo ikusiko den tamaina bateko irudiak sortzea da gakoa (600 x 400 pixeleko ohial bat, adibidez), eta bertan zenbait figura geometriko sartu, kolore desberdinetakoak. Galderek eskatzen dute forma bateko edo besteko figurak kontatzea, erantzun zuzenaz gain, bi oker ere eskainiz,. Ikusi emaitzen adibidea, galderak.csv
 
 **Figurak sortzeko programa**
 
 Galdera hauek sortzeko pythoneko PIL (Python Image Library) libreria sortu dugu.
-Hasiera  aldagai lokal bezala egingo dugun irudiaren (oihalaren) tamaina definituko dugu (600,400) eta figurek izango dute hiru kolore posibleak, gorria, berdea eta urdina.
+Hasiera aldagai lokal bezala egingo dugun irudiaren (oihalaren) tamaina definituko dugu (600,400) eta figurek izango dute hiru kolore posibleak, gorria, berdea eta urdina.
 Irudi mota bakoitzak bere funtzioa izango, marrazt_borobola, marraztu_karratua eta marraztu_triangelua.
 Funtzioek 4 parametro jasoko dituzte, oihala(draw), posizioa(x,y) eta tamaina.
 Funtzio honek tamaina jakin horretako poligonoa marraztuko du esandako tokian, eta ausazko kolore batekin.
@@ -32,11 +52,9 @@ Fitxategia gordetzerakoan ordenean bakoitzeko zenbat sortu ditugun jarriko dugu 
 
 Adibidez, honako irudi honek fitxategi izen hau dauka:
 
-
 fig_2_2_2_4_0_7_2_3_2.png
 
 Izeneko zenbaki bakoitzak, bere posizio zehatzean, esangura zehatz bat dauka. Kasu honetan:
-
 
 1. posizioan, 2: bi hiruki gorri
 2. Posizioan, 2: bi hiruki berde
@@ -50,19 +68,15 @@ Izeneko zenbaki bakoitzak, bere posizio zehatzean, esangura zehatz bat dauka. Ka
 
 **Irudi fitxategietatik galderetara**
 
-
 sortu_figurak.py programaren bidez, beraz, sortzen ditugu, adibidez eta kopuru bat ematearren, 20 irudi. Irudi fitxategi bakoitzak du, bere izenean, figura kopuruen gakoa.
 
-
 Orduan, zerrenda hau daukagu,
-
 
 fig_2_5_2_4_0_6_2_3_2.png
 
 fig_2_2_2_4_0_7_2_3_2.png
 
 ...
-
 
 Eta zerrenda horri, aplikatzen diogularik idatzi dugun beste programa, sortu_galderak.py.
 
