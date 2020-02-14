@@ -1,17 +1,26 @@
 # Egunean behin figurak
 
-**Nola erabili**
+## **Nola erabili**
 
+### **1.** Ingurune birtuala sortu
 Deskargatu kode hau eta sortu [virtualenv](https://virtualenv.pypa.io/en/latest/) bat
 karpetan bertan, horrela zure sistemako python ingurunea ez duzu kakaztuko.
+```bash
+    $ python3 -m venv myvenv
+```
+### **2.** Ingurune birtuala aktibatu
 
-Ondoren aktibatu virtualenv hori eta instalatu dependentziak:
+```bash
+    $ source myvenv/bin/activate 
+```
+
+### **3.** Dependentziak instalatu
 
 ```bash
     $ pip install -r requirements.txt
 ```
 
-Ondoren programa exekutatu dezakezu:
+### **4.** Programaren exekuzioa
 
 ```bash
    $ python sortu_figurak.py
@@ -21,11 +30,11 @@ Ondoren programa exekutatu dezakezu:
 
 Programaren emaitza, galderak.csv fitxategia eta figurak karpeta izango dira.
 
-**Galderen izaera**
+## **Galderen izaera**
 
 Mugikorrean ondo ikusiko den tamaina bateko irudiak sortzea da gakoa (600 x 400 pixeleko ohial bat, adibidez), eta bertan zenbait figura geometriko sartu, kolore desberdinetakoak. Galderek eskatzen dute forma bateko edo besteko figurak kontatzea, erantzun zuzenaz gain, bi oker ere eskainiz,. Ikusi emaitzen adibidea, galderak.csv
 
-**Figurak sortzeko programa**
+## **Figurak sortzeko programa**
 
 Galdera hauek sortzeko pythoneko PIL (Python Image Library) libreria sortu dugu.
 Hasiera aldagai lokal bezala egingo dugun irudiaren (oihalaren) tamaina definituko dugu (600,400) eta figurek izango dute hiru kolore posibleak, gorria, berdea eta urdina.
@@ -66,7 +75,7 @@ Izeneko zenbaki bakoitzak, bere posizio zehatzean, esangura zehatz bat dauka. Ka
 8. Posizioan, 3: 3 borobil berde
 9. Posizioan, 2: 2 borobil urdin
 
-**Irudi fitxategietatik galderetara**
+## **Irudi fitxategietatik galderetara**
 
 sortu_figurak.py programaren bidez, beraz, sortzen ditugu, adibidez eta kopuru bat ematearren, 20 irudi. Irudi fitxategi bakoitzak du, bere izenean, figura kopuruen gakoa.
 
